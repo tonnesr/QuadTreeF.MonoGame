@@ -2,9 +2,7 @@
 
 # QuadTreeF.MonoGame
 
-MonoGame compatibility layer for QuadTreeF
-
-Only compatible with dotnet core (netcoreapp3.1)
+MonoGame compatibility layer for [QuadTreeF](https://github.com/tonnesr/QuadTreeF)
 
 ## Extensions
 
@@ -29,3 +27,7 @@ Only compatible with dotnet core (netcoreapp3.1)
   RectangleF ToRectangleF(this Rectangle rect);
 
 ```
+
+## Compatibility
+
+Compatible with MonoGame dotnet core (netcoreapp3.1)
