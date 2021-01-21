@@ -2,10 +2,12 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <PackageId>Tonnes.QuadTreeF.MonoGame</PackageId>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <Authors>Tønnes Røren</Authors>
     <Company>Tønnes Røren</Company>
     <PackageTags>quadtree;dotnet;extension;monogame</PackageTags>
+    <RepositoryUrl>https://github.com/tonnesr/QuadTreeF.git</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.0.1641" />
