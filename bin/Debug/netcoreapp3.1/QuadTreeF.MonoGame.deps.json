@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "QuadTreeF.MonoGame/1.0.1": {
+      "QuadTreeF.MonoGame/1.0.2": {
         "dependencies": {
           "MonoGame.Framework.DesktopGL": "3.8.0.1641",
           "Tonnes.QuadTreeF": "1.0.1"
@@ -76,7 +76,7 @@
     }
   },
   "libraries": {
-    "QuadTreeF.MonoGame/1.0.1": {
+    "QuadTreeF.MonoGame/1.0.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

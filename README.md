@@ -26,6 +26,22 @@ MonoGame compatibility layer for [QuadTreeF](https://github.com/tonnesr/QuadTree
   // From Microsoft.Xna.Framework.Rectangle To Tonnes.QuadTreeF.RectangleF
   RectangleF ToRectangleF(this Rectangle rect);
 
+  // QuadTree<T> extensions:
+  void Add<T>(Point point, T value);
+  void Add<T>(Vector2 point, T value);
+
+  void Remove<T>(Point point);
+  void Remove<T>(Vector2 point);
+
+  bool Contains<T>(Point point);
+  bool Contains<T>(Vector2 point);
+
+  QuadNodeF<T> Search<T>(Point point);
+  QuadNodeF<T> Search<T>(Vector2 point);
+  bool Search<T>(Point point, out QuadNodeF<T> node);
+  bool Search<T>(Vector2 point, out QuadNodeF<T> node);
+  List<QuadNodeF<T>> Search<T>(Rectangle rectangle);
+
 ```
 
 ## Compatibility
